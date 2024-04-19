@@ -13,3 +13,7 @@
   background-color: blue;
   cursor: pointer;
 }
+
+.button:focus {
+  background-color: green;
+}

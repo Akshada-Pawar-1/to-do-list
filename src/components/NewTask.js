@@ -20,13 +20,16 @@ export default function NewTask({ closeModal, addTask }) {
     <Modal open={true} onClose={closeModal}>
       <h2>New task</h2>
       <p>
-        <label htmlFor="task">Task name: </label>
+        <label htmlFor="task" className={styles.label}>
+          Task name:{" "}
+        </label>
         <input
           type="text"
           name="task"
           id="task"
           ref={taskName}
           required
+          className={styles.input}
         ></input>
       </p>
       <p>
