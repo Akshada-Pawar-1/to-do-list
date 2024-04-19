@@ -1,0 +1,12 @@
+input {
+  height: 30px;
+  width: 28vw;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+label {
+  font-size: 1.3rem;
+  padding: 10px;
+}

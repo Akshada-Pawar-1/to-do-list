@@ -1,0 +1,15 @@
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+dialog::backdrop {
+  position: fixed;
+  inset: 0px;
+  background: rgba(0, 0, 0, 0.5);
+}

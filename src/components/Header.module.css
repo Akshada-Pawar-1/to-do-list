@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  /* height: 10vh; */
+  align-items: center;
+  justify-content: center;
+  background-color: royalblue;
+  color: white;
+  position: relative;
+}
+
+.logo {
+  padding: 5px;
+  height: auto;
+  width: 36px;
+}
